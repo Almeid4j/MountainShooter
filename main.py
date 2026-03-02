@@ -1,7 +1,8 @@
 from code.Game import Game
 
-print("MAIN INICIOU")
+if __name__ == "__main__":
+    print("MAIN INICIOU")
+    game = Game()
+    game.run()
 
-game: Game = Game()
-game.run()
 
