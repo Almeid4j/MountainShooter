@@ -8,7 +8,7 @@ from code.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
 from .Menu import Menu
 
 class Game:
-    def __init__(self):
+    def __init__(self) -> None:
         pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
