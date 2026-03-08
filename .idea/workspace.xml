@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed252ce4-1f87-4ae6-9449-62f4784838bc" name="Changes" comment="Creating Mediator Pattern.&#10;Enemies destruction.">
-      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/PlayerShot.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="ed252ce4-1f87-4ae6-9449-62f4784838bc" name="Changes" comment="Creating player shot&#10;Creating enemy shot" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +225,31 @@
       <option name="project" value="LOCAL" />
       <updated>1772683214860</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Creating player shot&#10;Creating enemy shot">
+      <option name="closed" value="true" />
+      <created>1772978887271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772978887271</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Creating player shot&#10;Creating enemy shot">
+      <option name="closed" value="true" />
+      <created>1772978940093</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772978940093</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Creating player shot&#10;Creating enemy shot">
+      <option name="closed" value="true" />
+      <created>1772979015475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772979015475</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +299,7 @@
     <MESSAGE value="Fixing imports in Level.py file" />
     <MESSAGE value="Creating Players and Enemies&#10;Moving players and Enemies" />
     <MESSAGE value="Creating Mediator Pattern.&#10;Enemies destruction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Mediator Pattern.&#10;Enemies destruction." />
+    <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating player shot&#10;Creating enemy shot" />
   </component>
 </project>
