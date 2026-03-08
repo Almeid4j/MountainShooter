@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed252ce4-1f87-4ae6-9449-62f4784838bc" name="Changes" comment="Creating Players and Enemies&#10;Moving players and Enemies">
-      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ed252ce4-1f87-4ae6-9449-62f4784838bc" name="Changes" comment="Creating Mediator Pattern.&#10;Enemies destruction.">
+      <change afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/PlayerShot.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +53,14 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/Enemy.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Entity.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/EntityFactory.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/EntityMediator.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/code/Game.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Level.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Menu.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/Player.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -223,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772598427570</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creating Mediator Pattern.&#10;Enemies destruction.">
+      <option name="closed" value="true" />
+      <created>1772683214860</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772683214860</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +286,7 @@
     <MESSAGE value="Creating menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax" />
     <MESSAGE value="Fixing imports in Level.py file" />
     <MESSAGE value="Creating Players and Enemies&#10;Moving players and Enemies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Players and Enemies&#10;Moving players and Enemies" />
+    <MESSAGE value="Creating Mediator Pattern.&#10;Enemies destruction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Mediator Pattern.&#10;Enemies destruction." />
   </component>
 </project>
