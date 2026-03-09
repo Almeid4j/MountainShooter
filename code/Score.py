@@ -5,7 +5,7 @@ import pygame
 from pygame import Surface, Rect, KEYDOWN, K_RETURN, K_BACKSPACE, K_ESCAPE
 from pygame.font import Font
 
-from code.Const import COLOR_YELLOW, COLOR_WHITE
+from code.Const import C_YELLOW, C_WHITE
 
 
 class Score:
