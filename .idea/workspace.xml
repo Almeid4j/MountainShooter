@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed252ce4-1f87-4ae6-9449-62f4784838bc" name="Changes" comment="Hit box Collisions&#10;HUD&#10;Score">
+    <list default="true" id="ed252ce4-1f87-4ae6-9449-62f4784838bc" name="Changes" comment="Level 2 implementation">
+      <change afterPath="$PROJECT_DIR$/code/DBProxy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code/Const.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Enemy.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Entity.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/EntityFactory.py" root0="SKIP_INSPECTION" />
@@ -91,6 +92,7 @@
     <setting file="file://$PROJECT_DIR$/code/Level.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Menu.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code/Player.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code/Score.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -315,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773022763814</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Level 2 implementation">
+      <option name="closed" value="true" />
+      <created>1773114613032</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1773114613032</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,6 +377,7 @@
     <MESSAGE value="Creating Mediator Pattern.&#10;Enemies destruction." />
     <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
     <MESSAGE value="Hit box Collisions&#10;HUD&#10;Score" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hit box Collisions&#10;HUD&#10;Score" />
+    <MESSAGE value="Level 2 implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level 2 implementation" />
   </component>
 </project>
